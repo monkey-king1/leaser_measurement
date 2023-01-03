@@ -33,7 +33,7 @@ jobs:
           target: run
           platforms: linux/amd64
           push: true
-          tags: yingjiea/ubuntu:leaser
-          cache-from: type=registry,ref=yingjiea/ubuntu:leaser
+          tags: qubo188612/ubuntu20.04:leaser
+          cache-from: type=registry,ref=qubo188612/ubuntu20.04:leaser
           cache-to: type=inline
   
